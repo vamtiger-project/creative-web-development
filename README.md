@@ -4,16 +4,18 @@ This is an **__Archive from the Early Days__**, creatively integrating Graphic D
 
 It included fooling about with:
 
-1. HTML
-2. CSS
-3. JAVASCRIPT
-4. PYTHON
-5. [BOOTSTRAP](http://getbootstrap.com/)
-6. [DJANGO](https://www.djangoproject.com/)
-7. [CHERRYPY](http://www.cherrypy.org/)
-8. [NODE.JS](https://nodejs.org/en/)
-9. [HEROKU](https://www.heroku.com/)
-10. [DIGITAL OCEAN](https://www.digitalocean.com/)
+1. [PHOTOSHOP](http://www.adobe.com/africa/products/photoshop.html)
+- [ILLUSTRATOR](http://www.adobe.com/africa/products/illustrator.html)
+- HTML
+- CSS
+- JAVASCRIPT
+- PYTHON
+- [BOOTSTRAP](http://getbootstrap.com/)
+- [DJANGO](https://www.djangoproject.com/)
+- [CHERRYPY](http://www.cherrypy.org/)
+- [NODE.JS](https://nodejs.org/en/)
+- [HEROKU](https://www.heroku.com/)
+- [DIGITAL OCEAN](https://www.digitalocean.com/)
 
 Four versions of this demo exist:
 
