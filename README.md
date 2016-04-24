@@ -10,6 +10,7 @@ It included fooling about with:
 - CSS
 - JAVASCRIPT
 - PYTHON
+- SQLITE
 - [BOOTSTRAP](http://getbootstrap.com/)
 - [DJANGO](https://www.djangoproject.com/)
 - [CHERRYPY](http://www.cherrypy.org/)
