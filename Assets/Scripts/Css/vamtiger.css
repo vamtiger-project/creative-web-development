@@ -1,0 +1,443 @@
+/*
+Title: Main Page CSS
+Description: Styling for vamtiger.herokuapp.com
+Created: 03 Feb 2015
+Last Modified: 03 Feb 2015
+Author: Vamtiger Immortalles
+Email: vamtigerproject@gmail.com
+*/
+
+/*
+Start Colors
+*/
+
+/* 
+Start Text Colors 
+*/
+article[data-name="intro-block"],
+section[data-name=marketingDescription] {
+	color: white;
+}
+
+article[data-name=info],
+article[data-name=info] small,
+article[data-name=info] li a[data-toggle=tab] {
+	color: white; /* White-slight-orange */
+}
+
+article[data-name=info] li.active a[data-toggle=tab],
+article[data-name=info] li a[data-toggle=tab]:hover {
+	color: black;
+}
+
+footer[data-name=footer],
+footer[data-name=footer] a {
+	color: rgb(200, 229, 252); /* White-slight-blue */
+}
+
+article[data-name=vamtigerContent] {
+	color: rgb(90, 90, 90); /* Dark gray */
+}
+/* 
+End Text Colors 
+*/
+
+/*
+Start Background Colors
+*/
+section[data-name=marketingDescription],
+.carousel-caption {
+	background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+
+html  [data-button],
+article[data-name=intro-block] {
+	background: linear-gradient(to top, rgb(20, 68, 110) 0%, rgb(39, 132, 214) 100%); /* blue gradient */
+}
+
+html [data-button]:hover, 
+html [data-button]:focus, 
+html [data-button]:active {
+	background: linear-gradient(to bottom, rgb(20, 68, 110) 0%, rgb(39, 132, 214) 100%); /* blue gradient reversed */
+}
+
+ul[data-name=infoTab] > li.active > a,
+ul[data-name=infoTab] > li > a:hover,
+ul[data-name=infoTab] > li.active > a:hover,
+ul[data-name=infoTab] > li.active > a:focus {
+	background: white;
+}
+/*
+End Background Colors
+*/
+
+/* 
+Borders Start 
+*/
+hr[data-name=hr] {
+	border-top: 1px solid #c9c9c9;
+}
+
+article[data-name=vamtigerContent] hr {
+	border-top: 1px solid rgb(90, 90, 90); /* Dark gray */
+}
+
+article[data-name=vamtigerContent] > section:nth-of-type(2) > section:nth-of-type(1) > figure {
+	border: 1px solid rgb(90, 90, 90); /* Dark gray */
+}
+/*
+Borders End
+*/
+
+/*
+End Colors
+*/
+
+
+/*
+External Fonts Start
+*/
+html body {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.7;
+	background: #eeefe9
+}
+
+html body h1, html body h2, html body h3, html body h4 {
+	font-family: "Abel", sans-serif;
+}
+
+b, strong {
+	font-weight: 400;
+}
+/*
+External Fonts End
+*/
+
+html .nav-tabs {
+	border-bottom: 1px solid rgb(249, 227, 205); /* White-slight-orange */
+}
+
+img[data-name=vamtigerLogoNav] {
+	width: 2em;
+	margin-top: -0.4em;
+}
+
+#mainCarousel .carousel-inner .item {
+	width: 100%;
+}
+
+#mainCarousel .carousel-caption {
+	bottom: 0;
+	border-radius: 1em 1em 0 0;
+	padding: 0.5em;
+}
+
+#mainCarousel .carousel-caption > p:nth-of-type(1) {
+	text-transform: uppercase;
+}
+
+#mainCarousel .carousel-caption h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#mainCarousel .carousel-caption p:last-of-type {
+	margin-bottom: 1.5em;
+}
+
+#mainCarousel .carousel-indicators {
+	bottom: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+article[data-name="intro-block"] {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.padding-top {
+	padding-top: 2em;
+	text-align: center;
+}
+
+img[data-name=vamtigerLogoIntro] {
+	width: 8em;
+	margin: auto;
+}
+
+span[data-name=textMuted] {
+	color: #e9e6df;
+	font-weight: 100;
+}
+
+article[data-name=vamtigerContent] > section:nth-of-type(2) > section {
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+}
+
+
+article[data-name=vamtigerContent] > section:nth-of-type(2) > section > figure {
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+article[data-name=vamtigerContent] > section:nth-of-type(2) > section:nth-of-type(n+2) > figure {
+	width: 200px;
+	height: 200px;
+}
+
+article[data-name=vamtigerContent] > section:nth-of-type(2) > section:nth-of-type(1) > figure {
+	width: 199px;
+	height: 199px;
+	background: url("../../Images/vamtigerContentDevelopmentMin.svg") no-repeat center center;
+	background-size: 80%;
+}
+
+article[data-name=vamtigerContent] > section:nth-of-type(2) > section:nth-of-type(2) > figure {
+	background: url("../../Images/vamtigerContentPublicationsW250.jpg") no-repeat -25px 0;
+}
+
+article[data-name=vamtigerContent] > section:nth-of-type(2) > section:nth-of-type(3) > figure {
+	background: url("../../Images/vamtigerContentLearningW250.jpg") no-repeat 0 -70px;
+}
+
+article[data-name=vamtigerContent] > section:nth-of-type(2) > section:nth-of-type(4) > figure {
+	background: url("../../Images/vamtigerContentFunW250.jpg") no-repeat -15px -30px;
+}
+
+article[data-name=vamtigerContent] > section:nth-of-type(2) > section > h3 {
+	text-align: center;
+}
+
+article[data-name=marketing] {
+	min-height: 100%;
+	min-width: 100%;
+	background-size: cover;
+}
+
+article[data-name=marketing] > section:first-of-type {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+}
+
+section[data-name=marketingDescription] {
+	margin: 2em 2em;
+	padding: 1em;
+	border-radius: 1em;
+}
+
+section[data-name=marketingDescription] > h3 {
+	margin: 0;
+}
+
+article[data-name=info] {
+	background: url(../../Images/vamtigerInfoBottomBackground2W1200.png) repeat-x bottom, linear-gradient(to bottom, rgb(211, 56, 0) 0%, rgb(255, 130, 0) 40%, rgb(255, 140, 0) 66%, rgb(251, 86, 1) 100%);
+	padding: 5em 0;
+}
+
+article[data-name=info] blockquote {
+	border-color: rgb(249, 227, 205);
+}
+
+article[data-name=info] .tab-content {
+	font-size: 1.024em;
+}
+
+ul[data-name=infoTab] > li > a {
+	-webkit-transition: background 0.15s linear, border 0.15s linear, color 0.15s linear;
+	-o-transition: background 0.15s linear, border 0.15s linear, color 0.15s linear;
+	-moz-transition: background 0.15s linear, border 0.15s linear, color 0.15s linear;
+	transition: background 0.15s linear, border 0.15s linear, color 0.15s linear;
+}
+
+.tab-pane {
+	padding: 1em 1em 3em 1em;
+}
+
+footer[data-name=footer] {
+	background: url(../../Images/tableMountainW785.png) repeat-x bottom, linear-gradient(to bottom, rgb(20, 68, 110) 0%, rgb(39, 132, 214) 100%); /* blue gradient */
+	padding: 2em;
+}
+
+img[data-name=vamtigerLogoFooter] {
+	width: 5em;
+	margin: 0 auto;
+}
+
+footer[data-name=footer] figcaption {
+	text-align: center
+}
+
+html  [data-button]:hover {
+	border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+@media (min-width: 768px) {
+	.carousel-inner > .item {
+		height: 700px;
+	}
+
+	footer[data-name=footer] .container .row figure {
+		float: right;
+	}
+
+	footer[data-name=footer] .container .row address {
+		float: left;
+	}
+}
+
+@media (max-width: 768px) {
+	[data-justify=responsiveCenter] {
+		text-align: center;
+	}
+}
+
+@media (max-width: 479px) {
+	#mainCarousel .carousel-inner .item {
+		height: 240px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(1){
+		background: url("../../Images/vamtigerCarouselIpadW480.jpg") no-repeat 0 -50px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(2){
+		background: url("../../Images/vamtigerCarouselWomanReadingW480.jpg") no-repeat 0 -50px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(3){
+		background: url("../../Images/vamtigerCarouselDaughterAndMotherW480.jpg") no-repeat bottom;
+	}
+
+	#mainCarousel .carousel-caption {
+		height: 100%;
+		padding-top: 80px;
+	}
+
+	#mainCarousel .carousel-indicators {
+		display: none;
+	}
+
+	article[data-name=marketing] {
+		background: url("../../Images/vamtigerMarketingBackgroundW1200.jpg") no-repeat center center;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	#mainCarousel .carousel-inner .item {
+		height: 384px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(1){
+		background: url("../../Images/vamtigerCarouselIpadW768.jpg") no-repeat 0 -100px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(2){
+		background: url("../../Images/vamtigerCarouselWomanReadingW768.jpg") no-repeat 0 -100px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(3){
+		background: url("../../Images/vamtigerCarouselDaughterAndMotherW768.jpg") no-repeat bottom;
+	}
+
+	article[data-name=marketing] {
+		background: url("../../Images/vamtigerMarketingBackgroundW1536.jpg") no-repeat center center;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#mainCarousel .carousel-inner .item {
+		height: 496px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(1){
+		background: url("../../Images/vamtigerCarouselIpadW992.jpg") no-repeat 0 -120px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(2){
+		background: url("../../Images/vamtigerCarouselWomanReadingW992.jpg") no-repeat 0 -100px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(3){
+		background: url("../../Images/vamtigerCarouselDaughterAndMotherW992.jpg") no-repeat bottom;
+	}
+
+	article[data-name=marketing] {
+		background: url("../../Images/vamtigerMarketingBackgroundW992.jpg") no-repeat center center;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	#mainCarousel .carousel-inner .item {
+		height: 600px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(1){
+		background: url("../../Images/vamtigerCarouselIpadW1200.jpg") no-repeat 0 -120px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(2){
+		background: url("../../Images/vamtigerCarouselWomanReadingW1200.jpg") no-repeat 0 -100px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(3){
+		background: url("../../Images/vamtigerCarouselDaughterAndMotherW1200.jpg") no-repeat bottom;
+	}
+
+	article[data-name=marketing] {
+		background: url("../../Images/vamtigerMarketingBackgroundW1200.jpg") no-repeat top center;
+	}
+}
+
+@media (min-width: 1202px) and (max-width: 1499px) {
+	#mainCarousel .carousel-inner .item {
+		height: 700px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(1){
+		background: url("../../Images/vamtigerCarouselIpadW1500.jpg") no-repeat 0 -170px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(2){
+		background: url("../../Images/vamtigerCarouselWomanReadingW1500.jpg") no-repeat 0 -200px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(3){
+		background: url("../../Images/vamtigerCarouselDaughterAndMotherW1500.jpg") no-repeat bottom;
+	}
+
+	article[data-name=marketing] {
+		background: url("../../Images/vamtigerMarketingBackgroundW1536.jpg") no-repeat center center;
+	}
+}
+
+@media (min-width: 1500px) {
+	#mainCarousel .carousel-inner .item {
+		height: 700px;
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(1){
+		background: url("../../Images/vamtigerCarouselIpadW1500.jpg") no-repeat 0 -230px;
+		background-size: 100%
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(2){
+		background: url("../../Images/vamtigerCarouselWomanReadingW2000.jpg") no-repeat;
+		background-size: 100%
+	}
+
+	#mainCarousel .carousel-inner .item:nth-of-type(3){
+		background: url("../../Images/vamtigerCarouselDaughterAndMotherW2000.jpg") no-repeat;
+		background-size: 100%
+	}
+
+	article[data-name=marketing] {
+		background: url("../../Images/vamtigerMarketingBackgroundW1536.jpg") no-repeat;
+		background-size: 100%;
+	}
+}
